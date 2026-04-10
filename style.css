@@ -1,0 +1,209 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+:root {
+  --color1: #090A0D;
+  --color2: #F24949;
+  --color3: #18181B;
+  --color4: #EC4343;
+  --footer-font: #71717A;
+  --pressed-link: #F27272;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color1);
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  z-index: 1000;
+  background-color: var(--color1);
+  justify-content: space-between;
+  position: fixed;
+}
+
+header nav {
+  margin: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+header nav a:hover {
+  color: var(--pressed-link);
+}
+
+#codesushi {
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+#code {
+  color: white;
+}
+
+#sushi {
+  color: red;
+}
+
+main {
+  padding-top: 70px;
+}
+
+#home {
+  background-image: url("https://blog.tbox.com.br/wp-content/uploads/2022/11/photo-1617196034796-73dfa7b1fd56.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 66vh;
+  background-color: gray;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#div1-1 {
+  background-color: #000000dd;
+  width: 80%;
+  padding: 40px;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#div1-1 p {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+
+#div1-1 small {
+  color: gray;
+  display: block;
+  font-size: 1.1em;
+  margin: 20px;
+}
+
+#div1-1 a.button {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  margin: auto;
+  background-color: var(--color2);
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#menu {
+  margin: 20px;
+  margin-bottom: 60px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 0px;
+  margin: auto;
+}
+
+#menu h2 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.item-cardapio {
+  height: 300px;
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  margin: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  align-items: flex-end;
+}
+
+#menu li {
+  list-style-type: none;
+}
+
+#salmao {
+  background-image: url("images/sushi-salmao.png");
+}
+
+#temaki {
+  background-image: url("images/temaki.jpeg");
+}
+
+#combined {
+  background-image: url("https://i2.wp.com/help.grandchef.com.br/wp-content/uploads/2021/05/rodizio-japones.jpg?");
+}
+
+#yakisoba {
+  background-image: url("https://images.unsplash.com/photo-1611143669185-af224c5e3252?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.item-cardapio .box {
+  background-color: var(--color3);
+  padding: 15px;
+  height: 35%;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  margin: -1px;
+}
+
+.item-cardapio .box small {
+  display: block;
+  color: gray;
+  margin-top: 10px;
+}
+
+.money {
+  display: block;
+  color: var(--color4);
+  margin-top: 40px;
+}
+
+#about {
+  text-align: center;
+  padding: 10px;
+  display: block;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+#about h2 {
+  margin: 20px;
+}
+
+#about p {
+  color: gray;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+footer p {
+  color: var(--footer-font);
+  font-size: 1.5vw;
+}
